@@ -19,4 +19,8 @@ UIImageView *imageView;
     self.window.hidden = NO;
 }
 
+- (void)applicationWillEnterForeground:(UIApplication *)application {
+    self.window.hidden = NO;
+}
+
 @end
